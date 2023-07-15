@@ -25,7 +25,9 @@ if(!empty($_POST)){
 <?php
 require_once 'header.php';
 ?>
+
         <h1>Register New User</h1>
+        <!-- Register Form -->
         <form action="" method="post" enctype="multipart/form-data">
             <label for="name">Name</label><br>
             <input type="text" name="name" id="name" required><br>
@@ -44,6 +46,7 @@ require_once 'header.php';
             <input type="file" name="image"><br><br>
             <button>Add Record</button>
         </form>
+        <!-- Register Form -->
 <?php
 require_once 'footer.php';
 ?>
